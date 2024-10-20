@@ -84,7 +84,7 @@ export const Home = () => {
 };
 
 const getIdTokenFromServer = async (initDataRaw: string) => {
-  const response = await fetch('/auth/telegram', {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/auth/telegram`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ initDataRaw }),

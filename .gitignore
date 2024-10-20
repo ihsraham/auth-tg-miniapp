@@ -39,7 +39,6 @@ next-env.d.ts
 
 certificates
 
-.env*
 !.env.sample
 
 /scripts
