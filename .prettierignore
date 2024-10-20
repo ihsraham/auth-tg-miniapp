@@ -1,0 +1,14 @@
+.github
+.parcel-cache
+.next
+
+build
+dist
+esm
+docs
+lib
+out
+icons.ts
+*.svg
+
+**/public/bootstrap/*
